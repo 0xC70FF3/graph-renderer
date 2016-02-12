@@ -1,0 +1,12 @@
+{
+  "name": "starter-node-angular",
+  "main": "server.js",
+  "version": "1.0.1",
+  "dependencies": {
+    "express" : "~4.5.1",
+	"body-parser" : "~1.4.2",
+	"method-override" : "~2.0.2",
+    "d3" : "~3",
+    "jsdom" : "~3"
+  }
+}

@@ -9,11 +9,15 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /src/
 
-COPY src/package.json /src/package.json
+COPY package.json /src/package.json
 RUN npm install
-COPY src/ /src/
 
-RUN mkdir -p /usr/share/fonts/opentype/ && \
-    cp /src/public/fonts/* /usr/share/fonts/opentype/
+COPY server.js /src/server.js
+COPY app /src/app
+COPY config /src/config
+COPY public /src/public
+
+#RUN mkdir -p /usr/share/fonts/opentype/ && \
+#    cp /src/public/fonts/* /usr/share/fonts/opentype/
 
 ENTRYPOINT ["npm", "start"]

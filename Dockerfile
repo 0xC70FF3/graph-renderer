@@ -17,7 +17,7 @@ COPY app /src/app
 COPY config /src/config
 COPY public /src/public
 
-#RUN mkdir -p /usr/share/fonts/opentype/ && \
-#    cp /src/public/fonts/* /usr/share/fonts/opentype/
+RUN mkdir -p /usr/share/fonts/opentype/ && \
+    cp /src/public/fonts/* /usr/share/fonts/opentype/
 
 ENTRYPOINT ["npm", "start"]

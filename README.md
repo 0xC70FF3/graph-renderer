@@ -1,5 +1,5 @@
 # Dataviz
-A web server that provides PNG scientific visualisations of data. Based on NodeJS, D3.js and phantomJS rendering
+A NodeJS server based on D3js that provides PNG scientific visualisations of data. It uses phantomJS rendering under the hood.
 
 ## Usage
 

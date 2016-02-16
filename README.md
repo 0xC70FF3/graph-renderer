@@ -1,5 +1,5 @@
-# docker-dataviz-d3js
-NodeJS server that generates PNG through D3.js and phantomJS rendering
+# Dataviz
+A web server that provides PNG scientific visualisations of data. Based on NodeJS, D3.js and phantomJS rendering
 
 ## Usage
 

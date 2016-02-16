@@ -1,5 +1,5 @@
 {
-  "name": "docker-dataviz-d3js",
+  "name": "dataviz",
   "main": "server.js",
   "version": "1.0.1",
   "dependencies": {

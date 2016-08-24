@@ -1,4 +1,4 @@
-# Dataviz
+# Graph Renderer
 A NodeJS server based on D3js that provides PNG scientific visualisations of data. It uses phantomJS rendering under the hood.
 
 ## Usage

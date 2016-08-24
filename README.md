@@ -1,6 +1,8 @@
 # Graph Renderer
 A NodeJS server based on D3js that provides PNG scientific visualisations of data. It uses phantomJS rendering under the hood.
 
+Right now, it is used to produce Sankey graphs. However it is easily extendable to other kinds of D3js visualisations.
+
 ## Usage
 
 ```bash
